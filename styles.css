@@ -1,4 +1,71 @@
+.carbonara {
+    background-color: rgb(141, 43, 36);
+    color: rgb(253, 249, 230);
+}
+
+.risotto {
+    background-color: bisque;
+    h2 {
+        background-color: ivory;
+    }
+}
+
+.risotto-img {
+    align-items: center;
+}
+
+.lebkuchen {
+    background-color: rgb(104, 66, 39);
+    color: blanchedalmond;
+}
+
+.index {
+    text-align: center;
+}
+
 body {
     font-family: Georgia, Garamond, 'Times New Roman', Times, serif;
     /* font-family: 'Courier New', Courier, monospace; */
+}
+
+a:link {
+    color: forestgreen;
+}
+
+a:visited {
+    color: rgb(25, 99, 25);
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.odin-link,
+.odin-link a {
+    color: rgb(189, 142, 23);
+    a:hover {
+        color: goldenrod;
+    }
+    
+}
+
+.chef {
+    margin-top: 20px;
+    margin-bottom: -75px;
+    padding-bottom: 0px;
+    filter: invert(69%) sepia(92%) saturate(260%) hue-rotate(349deg) brightness(91%) contrast(95%);
+}
+
+.odin-logo {
+    margin-top: -75px;
+    padding-top: 0px;
+    z-index: -1;
+    position: relative;
+    height: 100px;
+    width: auto;
 }
