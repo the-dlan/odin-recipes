@@ -1,11 +1,22 @@
 .carbonara {
     background-color: rgb(141, 43, 36);
     color: rgb(253, 249, 230);
+    h2, .recipes-link {
+        background-color: rgb(167, 126, 25);
+    }
+
+    a:link {
+        color: lightgreen;
+    }
+
+    a:visited {
+        color: palegreen;
+    }
 }
 
 .risotto {
     background-color: bisque;
-    h2 {
+    h2, .recipes-link {
         background-color: ivory;
     }
 }
@@ -16,7 +27,11 @@
 
 .lebkuchen {
     background-color: rgb(104, 66, 39);
-    color: blanchedalmond;
+    color: oldlace;
+    h2, .recipes-link {
+        background-color: blanchedalmond;
+        color: brown;
+    }
 }
 
 .index {
