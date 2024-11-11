@@ -19,6 +19,9 @@
     h2, .recipes-link {
         background-color: ivory;
     }
+    img {
+        text-align: center;
+    }
 }
 
 .risotto-img {
@@ -41,6 +44,10 @@
 body {
     font-family: Georgia, Garamond, 'Times New Roman', Times, serif;
     /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.title {
+    text-align: center;
 }
 
 a:link {
